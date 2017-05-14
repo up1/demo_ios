@@ -46,7 +46,7 @@ class CalculatorTests: XCTestCase {
     func testAdd10with15_MustBe_32() {
         let result =
             calculator.add(operand1: 10, operand2: 15)
-        XCTAssert(result == 50, "Result 10+15 = 25")
+        XCTAssert(result == 25, "Result 10+15 = 25")
     }
 
 
