@@ -31,4 +31,17 @@ class CalculatorTests: XCTestCase {
         XCTAssert(result == 25, "Result 10+15 = 25")
     }
     
+    func testAdd10with15_MustBe_28() {
+        let result =
+            calculator.add(operand1: 10, operand2: 15)
+        XCTAssert(result == 25, "Result 10+15 = 25")
+    }
+    
+    func testAdd10with15_MustBe_30() {
+        let result =
+            calculator.add(operand1: 10, operand2: 15)
+        XCTAssert(result == 25, "Result 10+15 = 25")
+    }
+
+    
 }
